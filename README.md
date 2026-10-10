@@ -4,8 +4,7 @@ Personal portfolio built with React, TypeScript, Vite, Tailwind CSS,
 and official shadcn/ui Card, Button, and Dialog components.
 
 Includes a photo album for Biebie and Tommy, an accessible enlarged photo
-viewer, and a playful love button. Hearts are local to the current visit;
-there is no backend or shared counter. Motion respects reduced-motion settings.
+viewer, and gentle animations. Motion respects reduced-motion settings.
 
 ## Development
 

@@ -134,14 +134,9 @@
   to { opacity: 1; transform: translateY(0); }
 }
 
-@keyframes love-pop {
-  50% { transform: scale(1.35) rotate(-8deg); }
-}
-
 @media (prefers-reduced-motion: no-preference) {
   html { scroll-behavior: smooth; }
   .reveal { animation: reveal 700ms ease-out both; }
-  .love-pop { animation: love-pop 350ms ease-out; }
 }
 
 @media (prefers-reduced-motion: reduce) {
