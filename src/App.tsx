@@ -1,5 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { dataScraper } from '@/projects'
+import catPhoto from '../20261008_231550.jpg'
+import personPhoto from '../IMG20250717144447.jpg'
 
 const linkClassName =
   'rounded-sm text-sm underline underline-offset-4 hover:text-foreground focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ring'
@@ -48,6 +50,32 @@ function App() {
             </a>
           </CardContent>
         </Card>
+
+        <section className="mt-12" aria-labelledby="favorite-people-title">
+          <h2 id="favorite-people-title" className="text-base font-medium">
+            My two favorite people in the world
+          </h2>
+          <div className="mt-4 grid grid-cols-2 items-start gap-4">
+            <img
+              src={personPhoto}
+              alt="A smiling person holding a large Stitch plush toy"
+              className="h-auto w-full rounded-lg"
+              width={983}
+              height={1311}
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src={catPhoto}
+              alt="A black and white cat looking at the camera"
+              className="h-auto w-full rounded-lg"
+              width={983}
+              height={1311}
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </section>
       </main>
     </div>
   )
